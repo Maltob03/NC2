@@ -1,12 +1,12 @@
 //
 //  ModalView.swift
-//  NC2_PASS_MANAGER
+//  PasswordManager
 //
-//  Created by Matteo Altobello on 08/12/22.
+//  Created by Matteo Altobello on 13/12/22.
 //
-
 import SwiftUI
 import CoreData
+import CryptoKit
 
 
 struct ModalView: View {
@@ -15,11 +15,14 @@ struct ModalView: View {
     @State var quantity: String = ""
     @State var text: String = ""
     @State var title: String = "Insert your information"
+    let key = Singleton.shared
+    
+    
     
     @Environment(\.managedObjectContext) private var viewContext
     
-    @FetchRequest(entity: Product.entity(), sortDescriptors: [])
-    private var products: FetchedResults<Product>
+    @FetchRequest(entity: Account.entity(), sortDescriptors: [])
+    private var acounts: FetchedResults<Account>
     
     var body: some View {
             VStack {
@@ -55,10 +58,10 @@ struct ModalView: View {
     private func addProduct() {
             
             withAnimation {
-                let product = Product(context: viewContext)
-                product.name = name
-                product.quantity = quantity
-                product.text = text
+                let account = Account(context: viewContext)
+                account.name = name
+                account.mail = quantity
+                account.pass = crypto(password: text, key: key)
                 saveContext()
                 title="Account Added"
             }

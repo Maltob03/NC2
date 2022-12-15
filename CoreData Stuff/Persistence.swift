@@ -1,9 +1,11 @@
 //
 //  Persistence.swift
-//  NC2_PASS_MANAGER
+//  PasswordManager
 //
-//  Created by Matteo Altobello on 08/12/22.
+//  Created by Matteo Altobello on 13/12/22.
 //
+
+import Foundation
 
 import CoreData
 
@@ -12,7 +14,7 @@ struct PersistenceController {
     
     let container: NSPersistentContainer
     init() {
-        container = NSPersistentContainer(name: "Products")
+        container = NSPersistentContainer(name: "Accounts")
         
         container.loadPersistentStores { (storeDescription, error) in
             if let error = error as NSError? {
@@ -21,4 +23,3 @@ struct PersistenceController {
         }
     }
 }
-

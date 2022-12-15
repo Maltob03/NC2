@@ -1,8 +1,8 @@
 //
 //  LockerView.swift
-//  NC2_PASS_MANAGER
+//  PasswordManager
 //
-//  Created by Matteo Altobello on 08/12/22.
+//  Created by Matteo Altobello on 13/12/22.
 //
 
 import SwiftUI
@@ -10,8 +10,8 @@ import SwiftUI
 struct LockerView: View {
     @Environment(\.managedObjectContext) private var viewContext
     
-    @FetchRequest(entity: Product.entity(), sortDescriptors: [])
-    var products: FetchedResults<Product>
+    @FetchRequest(entity: Account.entity(), sortDescriptors: [])
+    var accounts: FetchedResults<Account>
     
     @State private var isPresented = false
     var body: some View {
@@ -26,9 +26,9 @@ struct LockerView: View {
                     ScrollView(.horizontal,showsIndicators: false){
                         HStack{
                             
-                            ForEach(products) { product in
+                            ForEach(accounts) { account in
                                 NavigationLink {
-                                    DetailsView(accountName: product.name!, email: product.quantity!, password: product.text!)
+                                    DetailsView(accountName: account.name!, email: account.mail!, password: account.pass!)
                                     
                                 } label: {
                                     SingleCardView()

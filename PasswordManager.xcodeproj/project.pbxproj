@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BC1776F294260A5000A604E /* NC2_PASS_MANAGERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1776E294260A5000A604E /* NC2_PASS_MANAGERApp.swift */; };
-		4BC17773294260A6000A604E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC17772294260A6000A604E /* Assets.xcassets */; };
-		4BC17776294260A6000A604E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC17775294260A6000A604E /* Preview Assets.xcassets */; };
-		4BC1777E294260F0000A604E /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1777D294260F0000A604E /* CarouselView.swift */; };
-		4BC17780294260FA000A604E /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1777F294260FA000A604E /* SingleCardView.swift */; };
-		4BC177842942611E000A604E /* Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BC177822942611E000A604E /* Products.xcdatamodeld */; };
-		4BC177862942612A000A604E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC177852942612A000A604E /* Persistence.swift */; };
-		4BC1778829426137000A604E /* LockerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1778729426137000A604E /* LockerView.swift */; };
-		4BC1778A29426143000A604E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1778929426143000A604E /* MainView.swift */; };
-		4BC1778C2942614A000A604E /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1778B2942614A000A604E /* ModalView.swift */; };
-		4BC1778E29426152000A604E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1778D29426152000A604E /* ListView.swift */; };
-		4BC17794294390EA000A604E /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC17793294390EA000A604E /* Crypto.swift */; };
-		4BC1779729439853000A604E /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1779629439853000A604E /* DetailsView.swift */; };
-		4BDDFC5D2947761300284C10 /* Custom_Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC5C2947761300284C10 /* Custom_Attribute.swift */; };
+		4BDDFC6B29488B6300284C10 /* PasswordManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC6A29488B6300284C10 /* PasswordManagerApp.swift */; };
+		4BDDFC6D29488B6300284C10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC6C29488B6300284C10 /* ContentView.swift */; };
+		4BDDFC6F29488B6400284C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDFC6E29488B6400284C10 /* Assets.xcassets */; };
+		4BDDFC7229488B6400284C10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDFC7129488B6400284C10 /* Preview Assets.xcassets */; };
+		4BDDFC7929488B7A00284C10 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC7829488B7A00284C10 /* Persistence.swift */; };
+		4BDDFC7C29488B9B00284C10 /* Accounts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC7A29488B9B00284C10 /* Accounts.xcdatamodeld */; };
+		4BDDFC7E29488D4800284C10 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC7D29488D4800284C10 /* ListView.swift */; };
+		4BDDFC8029488D5400284C10 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC7F29488D5400284C10 /* ModalView.swift */; };
+		4BDDFC8229488D6100284C10 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC8129488D6100284C10 /* MainView.swift */; };
+		4BDDFC8629488D9300284C10 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC8529488D9300284C10 /* DetailsView.swift */; };
+		4BDDFC8829488DA400284C10 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC8729488DA400284C10 /* CarouselView.swift */; };
+		4BDDFC8A29488DB200284C10 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC8929488DB200284C10 /* SingleCardView.swift */; };
+		4BDDFC8C2948911500284C10 /* LockerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC8B2948911500284C10 /* LockerView.swift */; };
+		4BDDFC8E294891E700284C10 /* crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDFC8D294891E700284C10 /* crypto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4BC1776B294260A5000A604E /* NC2_PASS_MANAGER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC2_PASS_MANAGER.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BC1776E294260A5000A604E /* NC2_PASS_MANAGERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_PASS_MANAGERApp.swift; sourceTree = "<group>"; };
-		4BC17772294260A6000A604E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BC17775294260A6000A604E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4BC1777D294260F0000A604E /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
-		4BC1777F294260FA000A604E /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
-		4BC177832942611E000A604E /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
-		4BC177852942612A000A604E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		4BC1778729426137000A604E /* LockerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerView.swift; sourceTree = "<group>"; };
-		4BC1778929426143000A604E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		4BC1778B2942614A000A604E /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
-		4BC1778D29426152000A604E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		4BC17793294390EA000A604E /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
-		4BC1779629439853000A604E /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
-		4BDDFC5C2947761300284C10 /* Custom_Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Attribute.swift; sourceTree = "<group>"; };
+		4BDDFC6729488B6300284C10 /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDDFC6A29488B6300284C10 /* PasswordManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerApp.swift; sourceTree = "<group>"; };
+		4BDDFC6C29488B6300284C10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BDDFC6E29488B6400284C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BDDFC7129488B6400284C10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BDDFC7829488B7A00284C10 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4BDDFC7B29488B9B00284C10 /* Accounts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Accounts.xcdatamodel; sourceTree = "<group>"; };
+		4BDDFC7D29488D4800284C10 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		4BDDFC7F29488D5400284C10 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		4BDDFC8129488D6100284C10 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4BDDFC8529488D9300284C10 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		4BDDFC8729488DA400284C10 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		4BDDFC8929488DB200284C10 /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
+		4BDDFC8B2948911500284C10 /* LockerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerView.swift; sourceTree = "<group>"; };
+		4BDDFC8D294891E700284C10 /* crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4BC17768294260A5000A604E /* Frameworks */ = {
+		4BDDFC6429488B6300284C10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,103 +52,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BC17762294260A5000A604E = {
+		4BDDFC5E29488B6300284C10 = {
 			isa = PBXGroup;
 			children = (
-				4BDDFC5C2947761300284C10 /* Custom_Attribute.swift */,
-				4BC1778129426102000A604E /* CoreData Stuff */,
-				4BC1777C294260E1000A604E /* CardViews */,
-				4BC1776D294260A5000A604E /* NC2_PASS_MANAGER */,
-				4BC1776C294260A5000A604E /* Products */,
+				4BDDFC902948AC0C00284C10 /* CardView */,
+				4BDDFC8F2948ABF200284C10 /* CoreData Stuff */,
+				4BDDFC8B2948911500284C10 /* LockerView.swift */,
+				4BDDFC8529488D9300284C10 /* DetailsView.swift */,
+				4BDDFC8129488D6100284C10 /* MainView.swift */,
+				4BDDFC7F29488D5400284C10 /* ModalView.swift */,
+				4BDDFC7D29488D4800284C10 /* ListView.swift */,
+				4BDDFC8D294891E700284C10 /* crypto.swift */,
+				4BDDFC6929488B6300284C10 /* PasswordManager */,
+				4BDDFC6829488B6300284C10 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4BC1776C294260A5000A604E /* Products */ = {
+		4BDDFC6829488B6300284C10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BC1776B294260A5000A604E /* NC2_PASS_MANAGER.app */,
+				4BDDFC6729488B6300284C10 /* PasswordManager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4BC1776D294260A5000A604E /* NC2_PASS_MANAGER */ = {
+		4BDDFC6929488B6300284C10 /* PasswordManager */ = {
 			isa = PBXGroup;
 			children = (
-				4BC1776E294260A5000A604E /* NC2_PASS_MANAGERApp.swift */,
-				4BC1778D29426152000A604E /* ListView.swift */,
-				4BC1778B2942614A000A604E /* ModalView.swift */,
-				4BC1778929426143000A604E /* MainView.swift */,
-				4BC1778729426137000A604E /* LockerView.swift */,
-				4BC1779629439853000A604E /* DetailsView.swift */,
-				4BC17793294390EA000A604E /* Crypto.swift */,
-				4BC17772294260A6000A604E /* Assets.xcassets */,
-				4BC17774294260A6000A604E /* Preview Content */,
+				4BDDFC6A29488B6300284C10 /* PasswordManagerApp.swift */,
+				4BDDFC6C29488B6300284C10 /* ContentView.swift */,
+				4BDDFC6E29488B6400284C10 /* Assets.xcassets */,
+				4BDDFC7029488B6400284C10 /* Preview Content */,
 			);
-			path = NC2_PASS_MANAGER;
+			path = PasswordManager;
 			sourceTree = "<group>";
 		};
-		4BC17774294260A6000A604E /* Preview Content */ = {
+		4BDDFC7029488B6400284C10 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4BC17775294260A6000A604E /* Preview Assets.xcassets */,
+				4BDDFC7129488B6400284C10 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4BC1777C294260E1000A604E /* CardViews */ = {
+		4BDDFC8F2948ABF200284C10 /* CoreData Stuff */ = {
 			isa = PBXGroup;
 			children = (
-				4BC1777D294260F0000A604E /* CarouselView.swift */,
-				4BC1777F294260FA000A604E /* SingleCardView.swift */,
-			);
-			path = CardViews;
-			sourceTree = "<group>";
-		};
-		4BC1778129426102000A604E /* CoreData Stuff */ = {
-			isa = PBXGroup;
-			children = (
-				4BC177822942611E000A604E /* Products.xcdatamodeld */,
-				4BC177852942612A000A604E /* Persistence.swift */,
+				4BDDFC7829488B7A00284C10 /* Persistence.swift */,
+				4BDDFC7A29488B9B00284C10 /* Accounts.xcdatamodeld */,
 			);
 			path = "CoreData Stuff";
+			sourceTree = "<group>";
+		};
+		4BDDFC902948AC0C00284C10 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				4BDDFC8729488DA400284C10 /* CarouselView.swift */,
+				4BDDFC8929488DB200284C10 /* SingleCardView.swift */,
+			);
+			path = CardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4BC1776A294260A5000A604E /* NC2_PASS_MANAGER */ = {
+		4BDDFC6629488B6300284C10 /* PasswordManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BC17779294260A6000A604E /* Build configuration list for PBXNativeTarget "NC2_PASS_MANAGER" */;
+			buildConfigurationList = 4BDDFC7529488B6400284C10 /* Build configuration list for PBXNativeTarget "PasswordManager" */;
 			buildPhases = (
-				4BC17767294260A5000A604E /* Sources */,
-				4BC17768294260A5000A604E /* Frameworks */,
-				4BC17769294260A5000A604E /* Resources */,
+				4BDDFC6329488B6300284C10 /* Sources */,
+				4BDDFC6429488B6300284C10 /* Frameworks */,
+				4BDDFC6529488B6300284C10 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NC2_PASS_MANAGER;
-			productName = NC2_PASS_MANAGER;
-			productReference = 4BC1776B294260A5000A604E /* NC2_PASS_MANAGER.app */;
+			name = PasswordManager;
+			productName = PasswordManager;
+			productReference = 4BDDFC6729488B6300284C10 /* PasswordManager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4BC17763294260A5000A604E /* Project object */ = {
+		4BDDFC5F29488B6300284C10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					4BC1776A294260A5000A604E = {
+					4BDDFC6629488B6300284C10 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 4BC17766294260A5000A604E /* Build configuration list for PBXProject "NC2_PASS_MANAGER" */;
+			buildConfigurationList = 4BDDFC6229488B6300284C10 /* Build configuration list for PBXProject "PasswordManager" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,52 +156,52 @@
 				en,
 				Base,
 			);
-			mainGroup = 4BC17762294260A5000A604E;
-			productRefGroup = 4BC1776C294260A5000A604E /* Products */;
+			mainGroup = 4BDDFC5E29488B6300284C10;
+			productRefGroup = 4BDDFC6829488B6300284C10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BC1776A294260A5000A604E /* NC2_PASS_MANAGER */,
+				4BDDFC6629488B6300284C10 /* PasswordManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4BC17769294260A5000A604E /* Resources */ = {
+		4BDDFC6529488B6300284C10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC17776294260A6000A604E /* Preview Assets.xcassets in Resources */,
-				4BC17773294260A6000A604E /* Assets.xcassets in Resources */,
+				4BDDFC7229488B6400284C10 /* Preview Assets.xcassets in Resources */,
+				4BDDFC6F29488B6400284C10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BC17767294260A5000A604E /* Sources */ = {
+		4BDDFC6329488B6300284C10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC1778A29426143000A604E /* MainView.swift in Sources */,
-				4BC1778E29426152000A604E /* ListView.swift in Sources */,
-				4BC17794294390EA000A604E /* Crypto.swift in Sources */,
-				4BC1777E294260F0000A604E /* CarouselView.swift in Sources */,
-				4BC1778829426137000A604E /* LockerView.swift in Sources */,
-				4BC17780294260FA000A604E /* SingleCardView.swift in Sources */,
-				4BC1779729439853000A604E /* DetailsView.swift in Sources */,
-				4BDDFC5D2947761300284C10 /* Custom_Attribute.swift in Sources */,
-				4BC177862942612A000A604E /* Persistence.swift in Sources */,
-				4BC1778C2942614A000A604E /* ModalView.swift in Sources */,
-				4BC177842942611E000A604E /* Products.xcdatamodeld in Sources */,
-				4BC1776F294260A5000A604E /* NC2_PASS_MANAGERApp.swift in Sources */,
+				4BDDFC8829488DA400284C10 /* CarouselView.swift in Sources */,
+				4BDDFC8029488D5400284C10 /* ModalView.swift in Sources */,
+				4BDDFC8229488D6100284C10 /* MainView.swift in Sources */,
+				4BDDFC8629488D9300284C10 /* DetailsView.swift in Sources */,
+				4BDDFC8E294891E700284C10 /* crypto.swift in Sources */,
+				4BDDFC8A29488DB200284C10 /* SingleCardView.swift in Sources */,
+				4BDDFC7929488B7A00284C10 /* Persistence.swift in Sources */,
+				4BDDFC8C2948911500284C10 /* LockerView.swift in Sources */,
+				4BDDFC7C29488B9B00284C10 /* Accounts.xcdatamodeld in Sources */,
+				4BDDFC7E29488D4800284C10 /* ListView.swift in Sources */,
+				4BDDFC6D29488B6300284C10 /* ContentView.swift in Sources */,
+				4BDDFC6B29488B6300284C10 /* PasswordManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4BC17777294260A6000A604E /* Debug */ = {
+		4BDDFC7329488B6400284C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		4BC17778294260A6000A604E /* Release */ = {
+		4BDDFC7429488B6400284C10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -315,19 +315,19 @@
 			};
 			name = Release;
 		};
-		4BC1777A294260A6000A604E /* Debug */ = {
+		4BDDFC7629488B6400284C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NC2_PASS_MANAGER/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
 				DEVELOPMENT_TEAM = Y46CYM88ZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = StrongBox;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enable Your FaceId to see your passwords";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enable FaceID in order to see your password";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -338,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.NC2-PASS-MANAGER";
+				PRODUCT_BUNDLE_IDENTIFIER = Maltob.PasswordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,19 +346,19 @@
 			};
 			name = Debug;
 		};
-		4BC1777B294260A6000A604E /* Release */ = {
+		4BDDFC7729488B6400284C10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NC2_PASS_MANAGER/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
 				DEVELOPMENT_TEAM = Y46CYM88ZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = StrongBox;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enable Your FaceId to see your passwords";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enable FaceID in order to see your password";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -369,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.NC2-PASS-MANAGER";
+				PRODUCT_BUNDLE_IDENTIFIER = Maltob.PasswordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -380,20 +380,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BC17766294260A5000A604E /* Build configuration list for PBXProject "NC2_PASS_MANAGER" */ = {
+		4BDDFC6229488B6300284C10 /* Build configuration list for PBXProject "PasswordManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BC17777294260A6000A604E /* Debug */,
-				4BC17778294260A6000A604E /* Release */,
+				4BDDFC7329488B6400284C10 /* Debug */,
+				4BDDFC7429488B6400284C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BC17779294260A6000A604E /* Build configuration list for PBXNativeTarget "NC2_PASS_MANAGER" */ = {
+		4BDDFC7529488B6400284C10 /* Build configuration list for PBXNativeTarget "PasswordManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BC1777A294260A6000A604E /* Debug */,
-				4BC1777B294260A6000A604E /* Release */,
+				4BDDFC7629488B6400284C10 /* Debug */,
+				4BDDFC7729488B6400284C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -401,17 +401,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4BC177822942611E000A604E /* Products.xcdatamodeld */ = {
+		4BDDFC7A29488B9B00284C10 /* Accounts.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4BC177832942611E000A604E /* Products.xcdatamodel */,
+				4BDDFC7B29488B9B00284C10 /* Accounts.xcdatamodel */,
 			);
-			currentVersion = 4BC177832942611E000A604E /* Products.xcdatamodel */;
-			path = Products.xcdatamodeld;
+			currentVersion = 4BDDFC7B29488B9B00284C10 /* Accounts.xcdatamodel */;
+			path = Accounts.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 4BC17763294260A5000A604E /* Project object */;
+	rootObject = 4BDDFC5F29488B6300284C10 /* Project object */;
 }

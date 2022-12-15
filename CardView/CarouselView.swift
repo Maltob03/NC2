@@ -1,8 +1,8 @@
 //
 //  CarouselView.swift
-//  NC2_PASS_MANAGER
+//  PasswordManager
 //
-//  Created by Matteo Altobello on 08/12/22.
+//  Created by Matteo Altobello on 13/12/22.
 //
 
 import SwiftUI
@@ -40,3 +40,4 @@ struct CarouselView_Previews: PreviewProvider {
         CarouselView()
     }
 }
+
