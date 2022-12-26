@@ -9,7 +9,6 @@ import SwiftUI
 
 struct MainView: View {
     let persistenceController = PersistenceController.shared
-    
     var body: some View {
             TabView {
                 LockerView()

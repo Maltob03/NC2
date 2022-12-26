@@ -6,39 +6,8 @@
 //
 
 import Foundation
-
 import UIKit
 import CryptoKit
-
-/*
-struct Generatekey {
-    static let shared = Generatekey()
-    let data = "guy"
-    
-    private init(){}
-    
-    func generateKey () ->SymmetricKey {
-        let key = SymmetricKey(size: .bits256)
-        return key
-    }
-
-}
-
-*/
-
-
-
-
-class Singleton {
-    static let shared = SymmetricKey(size: .bits256)
-  
-  private init() {}
-}
-
-func generateKey () ->SymmetricKey {
-    let key = SymmetricKey(size: .bits256)
-    return key
-}
 
 
 func hash (password: String) -> String {
@@ -83,16 +52,6 @@ func decrypto (password: String, key: SymmetricKey) -> String {
     } catch let error {
         return "Error decrypting message: \(error.localizedDescription)"
     }
-}
-
-
-func prova (password: String) -> String {
-    let key = SymmetricKey(size: .bits256)
-    let message = password.data(using: .utf8)!
-    let sealedBox = try! AES.GCM.seal (message, using: key)
-    let decryptedData = try? AES.GCM.open(sealedBox, using: key)
-    let output = (String (data: decryptedData ?? Data(), encoding: .utf8) ?? "")
-    return output
 }
 
 

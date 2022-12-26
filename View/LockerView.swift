@@ -28,8 +28,7 @@ struct LockerView: View {
                             
                             ForEach(accounts) { account in
                                 NavigationLink {
-                                    DetailsView(accountName: account.name!, email: account.mail!, password: account.pass!)
-                                    
+                                   DetailsView(accountName: account.name!, email: account.mail!, password: account.pass!, sharedKey: account.key!)
                                 } label: {
                                     SingleCardView()
                                     

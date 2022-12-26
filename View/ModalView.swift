@@ -15,10 +15,7 @@ struct ModalView: View {
     @State var quantity: String = ""
     @State var text: String = ""
     @State var title: String = "Insert your information"
-    let key = Singleton.shared
-    
-    
-    
+    let key = SymmetricKey(size: .bits256)
     @Environment(\.managedObjectContext) private var viewContext
     
     @FetchRequest(entity: Account.entity(), sortDescriptors: [])
@@ -58,9 +55,11 @@ struct ModalView: View {
     private func addProduct() {
             
             withAnimation {
+                let savedKey = key.withUnsafeBytes {Data(Array($0)).base64EncodedString()}
                 let account = Account(context: viewContext)
                 account.name = name
                 account.mail = quantity
+                account.key = savedKey
                 account.pass = crypto(password: text, key: key)
                 saveContext()
                 title="Account Added"

@@ -55,14 +55,8 @@
 		4BDDFC5E29488B6300284C10 = {
 			isa = PBXGroup;
 			children = (
-				4BDDFC902948AC0C00284C10 /* CardView */,
-				4BDDFC8F2948ABF200284C10 /* CoreData Stuff */,
-				4BDDFC8B2948911500284C10 /* LockerView.swift */,
-				4BDDFC8529488D9300284C10 /* DetailsView.swift */,
-				4BDDFC8129488D6100284C10 /* MainView.swift */,
-				4BDDFC7F29488D5400284C10 /* ModalView.swift */,
-				4BDDFC7D29488D4800284C10 /* ListView.swift */,
-				4BDDFC8D294891E700284C10 /* crypto.swift */,
+				4BDDFC902948AC0C00284C10 /* View */,
+				4BDDFC8F2948ABF200284C10 /* Model */,
 				4BDDFC6929488B6300284C10 /* PasswordManager */,
 				4BDDFC6829488B6300284C10 /* Products */,
 			);
@@ -95,22 +89,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4BDDFC8F2948ABF200284C10 /* CoreData Stuff */ = {
+		4BDDFC8F2948ABF200284C10 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4BDDFC8D294891E700284C10 /* crypto.swift */,
 				4BDDFC7829488B7A00284C10 /* Persistence.swift */,
 				4BDDFC7A29488B9B00284C10 /* Accounts.xcdatamodeld */,
 			);
-			path = "CoreData Stuff";
+			path = Model;
 			sourceTree = "<group>";
 		};
-		4BDDFC902948AC0C00284C10 /* CardView */ = {
+		4BDDFC902948AC0C00284C10 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				4BDDFC8729488DA400284C10 /* CarouselView.swift */,
+				4BDDFC8B2948911500284C10 /* LockerView.swift */,
+				4BDDFC8529488D9300284C10 /* DetailsView.swift */,
+				4BDDFC7D29488D4800284C10 /* ListView.swift */,
+				4BDDFC7F29488D5400284C10 /* ModalView.swift */,
+				4BDDFC8129488D6100284C10 /* MainView.swift */,
 				4BDDFC8929488DB200284C10 /* SingleCardView.swift */,
 			);
-			path = CardView;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
