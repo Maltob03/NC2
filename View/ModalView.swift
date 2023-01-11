@@ -16,6 +16,7 @@ struct ModalView: View {
     @State var text: String = ""
     @State var title: String = "Insert your information"
     let key = SymmetricKey(size: .bits256)
+    
     @Environment(\.managedObjectContext) private var viewContext
     
     @FetchRequest(entity: Account.entity(), sortDescriptors: [])
